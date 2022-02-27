@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minute Math</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Minute Math</h1>
+    
+    <div class="math-problem">
+        <div class="tile" id="operand-1">
+            <p id="operand1-text">1</p>
+        </div>
+        
+        <div class="tile" id="operator">
+            <p id="operator-text">+</p>
+        </div>
+        
+        <div class="tile" id="operand-2">
+            <p id="operand2-text">2</p>
+        </div>
+        
+        <div class="tile" id="equals">
+            <p>=</p>
+        </div>
+        
+        <div class="tile" id="result">
+            <p id="result-text">3</p>
+        </div>
+    </div>
+    <br><br>    
+    <div class="operator-buttons">
+        <button class="button" id="plus" onclick="checkOperatorInput(this);">+</button>
+        <button class="button" id="minus" onclick="checkOperatorInput(this);">-</button>
+        <button class="button" id="multiply" onclick="checkOperatorInput(this);">x</button>
+        <button class="button" id="divide" onclick="checkOperatorInput(this);">÷</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
